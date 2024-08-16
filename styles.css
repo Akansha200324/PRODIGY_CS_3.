@@ -25,15 +25,22 @@ h1 {
 input[type="password"] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 16px;
 }
 
+label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
 #feedback {
   font-size: 14px;
   color: #333;
+  margin-bottom: 10px;
 }
 
 .weak {
@@ -45,5 +52,24 @@ input[type="password"] {
 }
 
 .strong {
+  color: green;
+}
+
+#criteria {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+#criteria li {
+  margin-bottom: 5px;
+}
+
+.invalid {
+  color: red;
+}
+
+.valid {
   color: green;
 }
